@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="login.css" media="screen">
+    <title>Login</title>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <div class="overlay">
+        
+        <!--     chamando pagina em php para usar o banco de dados -->
+        <form action="http://localhost/projeto/login.php" method="POST">
+            
+            <div class="con">
+               
+                <header class="head-form">
+                    <h2>Login</h2>
+                    <!--     cabeçalho com mensagem -->
+                    <p>Preencha as informações</p>
+                </header>
+                
+                <br>
+                <div class="field-set">
+
+                    <!--   ususario -->
+                    <span class="input-item">
+               <i class="fa fa-user-circle"></i>
+             </span>
+                    <!--   entrada de usuario-->
+                    <input class="form-input" type="text" placeholder="usúario" id="usuario" name="usuario"  required>
+
+                    <br>
+
+                    <!--   senha -->
+
+                    <span class="input-item">
+            <i class="fa fa-key"></i>
+           </span>
+                    <!--   entrada da Senha-->
+                    <input class="form-input" type="password" placeholder="Senha" id="senha" name="senha" required>
+
+                    <br>
+            
+                    <!-- botao de login -->
+                    <form><button class="log-in"> Entrar<a href="menu2.html"></a><span id="consulta "></span> </button>
+                    </form>
+                </div>
+
+
+        </form>
+        </div>
+</body>
+
+</html>

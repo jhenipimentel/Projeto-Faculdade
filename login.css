@@ -1,0 +1,174 @@
+login.css
+
+/* corpo da pagina */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    background-color: #F0F8FF;
+    color: #000000;
+    background-image: linear-gradient(to top, #000000 0%, #000000 100%);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    font-family: 'Vibur', cursive;
+    /*   fonte */
+    font-family: 'Abel', sans-serif;
+    opacity: .95;
+  
+}
+
+
+
+
+/* formulario */
+
+form {
+    width: 450px;
+    min-height: 500px;
+    height: auto;
+    border-radius: 5px;
+    margin: 2% auto;
+    box-shadow: 0 9px 50px hsla(0, 0%, 100%, 0.31);
+    padding: 2%;
+    background-image: linear-gradient(-225deg, #ffffff 50%, #ffffff 50%);
+}
+
+
+form .con {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+
+/* cabeçario do formulario */
+
+header {
+    margin: 2% auto 10% auto;
+    text-align: center;
+}
+
+
+
+header h2 {
+    font-size: 250%;
+    font-family: 'Playfair Display', serif;
+    color: #000000;
+}
+
+
+header p {
+    letter-spacing: 0.05em;
+}
+
+
+
+
+.input-item {
+    background: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    padding: 14.5px 0px 15px 9px;
+    border-radius: 5px 0px 0px 5px;
+}
+
+
+
+
+input[class="form-input"] {
+    width: 240px;
+    height: 50px;
+    margin-top: 2%;
+    padding: 15px;
+    font-size: 16px;
+    font-family: 'Abel', sans-serif;
+    color: #000000;
+    outline: none;
+    border: none;
+    border-radius: 0px 5px 5px 0px;
+    transition: 0.2s linear;
+}
+
+input[id="txt-input"] {
+    width: 250px;
+}
+
+
+
+input:focus {
+    transform: translateX(-2px);
+    border-radius: 5px;
+}
+
+
+
+/* botões  */
+
+button {
+    display: inline-block;
+    color: #ffffff;
+    width: 280px;
+    height: 50px;
+    padding: 0 20px;
+    background: rgb(0, 0, 0);
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.2s linear;
+    margin: 7% auto;
+    letter-spacing: 0.05em;
+}
+
+
+
+
+.submits {
+    width: 48%;
+    display: inline-block;
+    margin-left: 2%;
+}
+
+
+
+.frgt-pass {
+    background: transparent;
+}
+
+
+
+.sign-up {
+    background: #000000;
+}
+
+
+
+
+button:hover {
+    transform: translatey(3px);
+    box-shadow: none;
+}
+
+
+
+button:hover {
+    animation: ani9 0.4s ease-in-out infinite alternate;
+}
+
+@keyframes ani9 {
+    0% {
+        transform: translateY(3px);
+    }
+    100% {
+        transform: translateY(5px);
+    }
+}
